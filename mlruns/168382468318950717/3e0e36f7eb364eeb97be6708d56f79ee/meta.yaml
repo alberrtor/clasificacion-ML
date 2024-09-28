@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/alberrtor/Documents/dev/git/my_projects/clasificacion-ML/mlruns/168382468318950717/3e0e36f7eb364eeb97be6708d56f79ee/artifacts
+end_time: 1727550939229
+entry_point_name: ''
+experiment_id: '168382468318950717'
+lifecycle_stage: active
+run_id: 3e0e36f7eb364eeb97be6708d56f79ee
+run_name: glamorous-shrimp-391
+run_uuid: 3e0e36f7eb364eeb97be6708d56f79ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727550936515
+status: 3
+tags: []
+user_id: alberrtor
