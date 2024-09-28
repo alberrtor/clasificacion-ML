@@ -8,7 +8,7 @@ Este proyecto de clasificación predice si un cliente incumplirá el pago de su 
 ## Estructura del Proyecto
 - **Notebook-1.ipynb**: Análisis exploratorio de los datos.
 - **Notebook-2.ipynb**: Selección de características y prueba de múltiples algoritmos con Lazy Predict.
-- **Notebook-3**: Entrenamiento del mejor modelo y registro en MLFlow.
+- **Notebook-3.ipynb**: Entrenamiento del mejor modelo y registro en MLFlow.
 
 ## Requisitos
 1. Python 3.7 o superior.
