@@ -8,7 +8,7 @@ Este proyecto de clasificación predice si un cliente incumplirá el pago de su 
 ## Estructura del Proyecto
 - **Notebook-1.ipynb**: Análisis exploratorio de los datos.
 - **Notebook-2.ipynb**: Selección de características y prueba de múltiples algoritmos con Lazy Predict.
-- **TNotebook-3**: Entrenamiento del mejor modelo y registro en MLFlow.
+- **Notebook-3**: Entrenamiento del mejor modelo y registro en MLFlow.
 
 ## Requisitos
 1. Python 3.7 o superior.
@@ -24,9 +24,9 @@ Este proyecto de clasificación predice si un cliente incumplirá el pago de su 
 3. Ejecutar los notebooks en el orden descrito
 4. Visualizar los resultados y los registros en MLFlow.
 
-## Solución de problemas
+## Solución de errores
 
-### XGBoostError: XGBoost Library (libxgboost.dylib) could not be loaded
+- #### XGBoostError: XGBoost Library (libxgboost.dylib) could not be loaded
 Solución: 
 Instala OpenMP usando Homebrew:
 
@@ -40,7 +40,7 @@ Reinstala XGBoost para asegurarte de que está correctamente configurado para us
 
 pip install xgboost
 
-### TypeError: OneHotEncoder.init() got an unexpected keyword argument 'sparse'
+- #### TypeError: OneHotEncoder.init() got an unexpected keyword argument 'sparse'
 Solución:
 Abre el archivo Supervised.py en el directorio de instalación de LazyPredict. La ruta debería ser algo similar a /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/lazypredict/Supervised.py.
 
